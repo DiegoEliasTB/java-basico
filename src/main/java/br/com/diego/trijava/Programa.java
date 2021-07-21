@@ -1,3 +1,5 @@
+package br.com.diego.trijava;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -5,9 +7,9 @@ import java.util.Objects;
 
 public class Programa {
     // [[ijij][rdrdrdr]]
-    public static void main(String[] args_) {
+    public static void main(String[] args) {
 
-        String[] args = { "add", "20", "1", "8" };
+        //String[] args = { "add", "20", "1", "8" };
         System.out.println("Iniciado");
         if (Objects.nonNull(args) && args.length > 0) {
             
